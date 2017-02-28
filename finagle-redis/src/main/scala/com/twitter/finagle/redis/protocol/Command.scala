@@ -109,6 +109,9 @@ object Command {
   val CONFIG            = Buf.Utf8("CONFIG")
   val SENTINEL          = Buf.Utf8("SENTINEL")
 
+  // Cluster
+  val CLUSTER           = Buf.Utf8("CLUSTER")
+
   // Scripts
   val EVAL              = Buf.Utf8("EVAL")
   val EVALSHA           = Buf.Utf8("EVALSHA")
